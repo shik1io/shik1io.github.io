@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EMMANUEL – Web Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Style.css">
+</head>
+<body>
+<style>
+.au{position:fixed;left:0;top:0;width:100vw;height:100vh;z-index:-1;overflow:hidden;pointer-events:none}
+.au .g1{position:absolute;left:-10%;right:-10%;top:14%;height:38%;filter:blur(55px);opacity:.85;
+background:linear-gradient(180deg,transparent,rgba(138,91,255,.55) 45%,rgba(0,229,255,.5) 85%,rgba(255,255,255,.45));
+animation:auSway 12s ease-in-out infinite alternate}
+.au .g2{position:absolute;left:-10%;right:-10%;top:10%;height:34%;filter:blur(60px);opacity:.5;
+background:linear-gradient(90deg,rgba(255,63,164,.5),transparent 35%,rgba(0,229,255,.5) 70%,transparent);
+animation:auSway 17s ease-in-out infinite alternate-reverse}
+.au .w{position:absolute;left:0;top:calc(50% - 100px);width:400vw;height:200px;
+filter:drop-shadow(0 0 6px #fff) drop-shadow(0 0 16px #00e5ff) drop-shadow(0 0 32px #8a5bff);
+animation:auFlow 16s linear infinite}
+.au .w svg{width:100%;height:100%;display:block}
+@keyframes auSway{from{transform:translateX(-6%) skewX(-6deg)}to{transform:translateX(6%) skewX(6deg)}}
+@keyframes auFlow{from{transform:translateX(0)}to{transform:translateX(-100vw)}}
+</style>
+<div class="au">
+<div class="g1"></div><div class="g2"></div>
+<div class="w"><svg viewBox="0 0 5760 200" preserveAspectRatio="none"><defs><linearGradient id="wg2" gradientUnits="userSpaceOnUse" x1="0" x2="1440" spreadMethod="repeat"><stop offset="0" stop-color="#8a5bff"/><stop offset=".3" stop-color="#ffffff"/><stop offset=".6" stop-color="#00e5ff"/><stop offset="1" stop-color="#8a5bff"/></linearGradient></defs><path d="M0 100 Q360 20 720 100 T1440 100 T2160 100 T2880 100 T3600 100 T4320 100 T5040 100 T5760 100" fill="none" stroke="url(#wg2)" stroke-width="3"/></svg></div>
+</div>
+<aside>
+<div class="logo">ED<span>.</span></div>
+<nav class="mono">
+<a href="#home"><i>⌂</i>HOME</a>
+<a href="#about"><i>☺</i>ABOUT</a>
+<a href="#work"><i>▣</i>WORK</a>
+<a href="#skills"><i>&lt;/&gt;</i>SKILLS</a>
+<a href="#contact"><i>✉</i>CONTACT</a>
+</nav>
+<!-- Put your CV file name in href, e.g. href="cv.pdf" -->
+<a class="cv mono" href="Emmanuel-Diones-CV.pdf" download>DOWNLOAD CV</a>
+<div class="stars">
+  <span style="--t:5%;--l:85%;--d:7s;--s:0s"></span>
+  <span style="--t:15%;--l:60%;--d:9s;--s:2s"></span>
+  <span style="--t:30%;--l:95%;--d:6s;--s:4s"></span>
+  <span style="--t:8%;--l:40%;--d:11s;--s:1s"></span>
+  <span style="--t:40%;--l:75%;--d:8s;--s:5s"></span>
+  <span style="--t:20%;--l:100%;--d:10s;--s:3s"></span>
+</div>
+</aside>
+
+<main>
+<div class="wrap">
+<div class="hero" id="home">
+<div class="badge mono"><b></b>Available for work</div>
+<div>
+<div class="eyebrow mono">WEB DEVELOPER</div>
+<h1>EMMANUEL<br>DIONES.</h1>
+<p class="tag">I build <em>fast, clean websites</em> and keep the systems behind them running.</p>
+<div class="btns mono">
+<a class="btn main" href="#work">VIEW WORK →</a>
+<a class="btn ghost" href="#contact">GET IN TOUCH</a>
+</div>
+</div>
+<div class="frame">
+<img src="EMMANUEL.jpg" alt="EMMANUEL">
+<!--<div class="years mono"><b>X+ Years</b><span>Experience</span></div>-->
+</div>
+<div class="scroll mono">SCROLL ↓</div>
+</div>
+
+<section id="about">
+<div class="about">
+<div>
+<div class="label mono">WHO I AM</div>
+<h2>CREATIVE MIND,<br><em>PRECISE CODE.</em></h2>
+<p>I’m Emmanuel, a web developer who builds clean, fast and responsive websites. I work with HTML, CSS and JavaScript, and I care about details like smooth animations, readable layouts and sites that work well on any screen.</p>
+<p>I enjoy turning ideas into working projects and fixing problems until everything runs right. I’m looking for opportunities where I can keep learning, build real products and grow as a developer.</p>
+</div>
+<div class="stats mono">
+<div class="stat"><b>0+</b><span>Projects completed</span></div>
+<div class="stat"><b>AI TOOLS</b><span>CLAUDE, GEMINI, ETC</span></div>
+<div class="stat"><b>100+</b><span>Hours of Coding</span></div>
+<div class="stat"><b>2+</b><span>Years of Coding</span></div>
+</div>
+</div>
+</section>
+
+<section id="work">
+<div class="label mono">SELECTED WORK</div>
+<h2>MY <em>PROJECTS</em></h2>
+<div class="projects">
+<div class="card"><h3>Project name</h3><p></p><span class="mono">PLUGINS · NETWORKING · LINUX</span></div>
+<div class="card"><h3>Project name</h3><p></p><span class="mono">HTML · CSS · JS</span></div>
+<div class="card"><h3>Project name</h3><p></p><span class="mono"></span></div>
+</div>
+</section>
+
+<section id="skills">
+<div class="label mono">TOOLBOX</div>
+<h2>MY <em>SKILLS</em></h2>
+<ul class="skills mono">
+<li>HTML</li><li>CSS</li><li>JavaScript</li><li>Debugging</li><li>C++</li><li>JAVA</li><li>C#</li>
+</ul>
+</section>
+
+<section id="contact" class="contact">
+<div class="label mono">LET’S TALK</div>
+<h2>GET IN <em>TOUCH</em></h2>
+<style>
+#cform{max-width:520px;display:flex;flex-direction:column;gap:8px;margin:0 0 28px}
+#cform label{display:block;font-size:.7rem;letter-spacing:.18em;color:#8f94b8;margin-top:10px}
+#cform input,#cform textarea{
+  display:block;width:100%;padding:14px 16px;border-radius:10px;
+  background:#0d0d22;border:1px solid #1c1c3a;color:#e8eaff;
+  font:inherit;font-size:.95rem;transition:.25s;-webkit-appearance:none;appearance:none}
+#cform textarea{min-height:130px;resize:vertical}
+#cform input::placeholder,#cform textarea::placeholder{color:#4a4f72}
+#cform input:focus,#cform textarea:focus{outline:none;border-color:#00e5ff;box-shadow:0 0 16px rgba(0,229,255,.3)}
+#cform button{
+  display:block;width:100%;margin-top:18px;padding:14px;border-radius:10px;cursor:pointer;
+  background:#0d0d22;border:1px solid #4d6bff;color:#e8eaff;
+  font:inherit;font-weight:600;transition:.25s}
+#cform button:hover,#cform button:focus-visible{border-color:#00e5ff;color:#00e5ff;box-shadow:0 0 22px rgba(0,229,255,.5);transform:translateY(-2px)}
+#cform button:disabled{opacity:.6;cursor:wait}
+#cstatus{margin:6px 0 0;font-size:.9rem;min-height:1.4em;color:#00e5ff}
+</style>
+<form class="cform" id="cform" action="https://formspree.io/f/xrpewpvl" method="POST">
+<label for="name" class="mono">NAME</label>
+<input id="name" name="name" type="text" placeholder="Your name" required>
+
+<label for="email" class="mono">EMAIL</label>
+<input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+<label for="message" class="mono">MESSAGE</label>
+<textarea id="message" name="message" placeholder="What’s on your mind?" required></textarea>
+
+<button type="submit">Send message →</button>
+<p id="cstatus" role="status"></p>
+</form>
+
+<p class="mono" style="font-size:.8rem;color:var(--muted)"><a href="https://github.com/shik1io">GITHUB</a> &nbsp;·&nbsp; <a href="#">LINKEDIN</a></p>
+</section>
+<footer class="mono">© EMMANUEL · BUILT WITH CODE</footer>
+</div>
+</main>
+<script>
+document.addEventListener('click', function (e) {
+  if (e.target.closest('a, button, .card, .stat, .skills li')) return;
+
+  var colors = ['#00e5ff', '#4d6bff', '#8a5bff'];
+  var box = document.createElement('div');
+  box.className = 'fx';
+  box.style.left = e.clientX + 'px';
+  box.style.top = e.clientY + 'px';
+
+  var ring = document.createElement('div');
+  ring.className = 'ring';
+  box.appendChild(ring);
+
+  for (var n = 0; n < 8; n++) {
+    var d = document.createElement('div');
+    var angle = (n / 8) * Math.PI * 2 + Math.random() * 0.4;
+    var dist = 40 + Math.random() * 50;
+    d.className = 'dot';
+    d.style.setProperty('--x', Math.cos(angle) * dist + 'px');
+    d.style.setProperty('--y', Math.sin(angle) * dist + 'px');
+    d.style.setProperty('--c', colors[n % colors.length]);
+    box.appendChild(d);
+  }
+
+  document.body.appendChild(box);
+  setTimeout(function () { box.remove(); }, 900);
+});
+</script>
+<style>
+.cm{position:fixed;inset:0;z-index:100;display:none;place-items:center;padding:20px;background:rgba(3,3,10,.72);backdrop-filter:blur(6px)}
+.cm.open{display:grid}
+.cm-card{width:100%;max-width:400px;text-align:center;padding:38px 28px 28px;border-radius:16px;background:#0d0d22;
+border:1px solid #2bff88;box-shadow:0 0 34px rgba(43,255,136,.35),inset 0 0 24px rgba(43,255,136,.08);
+animation:cmIn .35s cubic-bezier(.2,.8,.2,1)}
+.cm.err .cm-card{border-color:#ff3fa4;box-shadow:0 0 34px rgba(255,63,164,.35),inset 0 0 24px rgba(255,63,164,.08)}
+.cm-icon{width:84px;height:84px;margin:0 auto 18px;color:#2bff88;filter:drop-shadow(0 0 10px currentColor)}
+.cm.err .cm-icon{color:#ff3fa4}
+.cm-icon *{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round}
+.cm-icon circle{stroke-width:2.5;stroke-dasharray:166;stroke-dashoffset:166;animation:cmDraw .6s .1s ease forwards}
+.cm-icon .tick,.cm-icon .cross{stroke-width:3.5;stroke-dasharray:60;stroke-dashoffset:60;animation:cmDraw .4s .6s ease forwards}
+.cm.err .tick,.cm:not(.err) .cross{display:none}
+.cm h3{font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:2.2rem;letter-spacing:.03em;margin:0 0 8px;color:#e8eaff}
+.cm p{margin:0 0 24px;color:#8f94b8;font-size:.98rem;line-height:1.6}
+.cm button{padding:12px 30px;border-radius:10px;cursor:pointer;background:transparent;color:#e8eaff;
+border:1px solid currentColor;font:inherit;font-weight:600;transition:.25s}
+.cm .cm-close{color:#2bff88}
+.cm.err .cm-close{color:#ff3fa4}
+.cm .cm-close:hover,.cm .cm-close:focus-visible{background:currentColor;box-shadow:0 0 22px currentColor}
+.cm .cm-close:hover span,.cm .cm-close:focus-visible span{color:#06060f}
+@keyframes cmIn{from{opacity:0;transform:translateY(14px) scale(.94)}to{opacity:1;transform:none}}
+@keyframes cmDraw{to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){.cm-card,.cm-icon *{animation:none!important;stroke-dashoffset:0!important}}
+</style>
+
+<div class="cm" id="cmodal" role="dialog" aria-modal="true" aria-labelledby="cm-title">
+<div class="cm-card">
+<svg class="cm-icon" viewBox="0 0 52 52" aria-hidden="true">
+<circle cx="26" cy="26" r="25"/>
+<path class="tick" d="M14 27 l8 8 16-16"/>
+<path class="cross" d="M17 17 L35 35 M35 17 L17 35"/>
+</svg>
+<h3 id="cm-title">Message sent!</h3>
+<p id="cm-text"></p>
+<button type="button" class="cm-close" id="cm-close"><span>Close</span></button>
+</div>
+</div>
+
+<script>
+(function () {
+  var form = document.getElementById('cform');
+  var modal = document.getElementById('cmodal');
+  if (!form || !modal) return;
+  var title = document.getElementById('cm-title');
+  var text = document.getElementById('cm-text');
+  var closeBtn = document.getElementById('cm-close');
+
+  function show(ok, name) {
+    modal.className = 'cm open' + (ok ? '' : ' err');
+    title.textContent = ok ? 'Message sent!' : 'Something went wrong';
+    text.textContent = ok
+      ? 'Thanks' + (name ? ', ' + name : '') + '! I got your message and will reply to your email soon.'
+      : 'Your message was not sent. Please try again in a moment.';
+    closeBtn.focus();
+  }
+  function hide() { modal.classList.remove('open'); }
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var btn = form.querySelector('button[type="submit"]');
+    var name = form.elements['name'].value.trim().split(' ')[0];
+    btn.disabled = true;
+    btn.textContent = 'Sending...';
+    fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    }).then(function (r) {
+      if (r.ok) { form.reset(); show(true, name); } else { show(false); }
+    }).catch(function () {
+      show(false);
+    }).finally(function () {
+      btn.disabled = false;
+      btn.textContent = 'Send message →';
+    });
+  });
+
+  closeBtn.addEventListener('click', hide);
+  modal.addEventListener('click', function (e) { if (e.target === modal) hide(); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') hide(); });
+})();
+</script>
+<style>
+.rv{
+  opacity:0;translate:0 40px;
+  transition:opacity .8s ease var(--rd,0s),
+             translate .8s cubic-bezier(.2,.7,.2,1) var(--rd,0s),
+             transform .25s,border-color .25s,box-shadow .25s,color .25s;
+}
+.rv.in{opacity:1;translate:0 0}
+@media (prefers-reduced-motion:reduce){
+  .rv{opacity:1;translate:none;transition:none}
+}
+</style>
+
+<script>
+(function () {
+  if (!('IntersectionObserver' in window)) return;
+  var items = document.querySelectorAll(
+    'section .label, section h2, .about p, .stat, .card, .skills li, .cform, .contact > p, footer'
+  );
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) {
+      en.target.classList.toggle('in', en.isIntersecting);
+    });
+  }, { threshold: 0.15, rootMargin: '0px 0px -8% 0px' });
+
+  items.forEach(function (el) {
+    var i = Array.prototype.indexOf.call(el.parentNode.children, el);
+    el.style.setProperty('--rd', Math.min(i * 0.1, 0.5) + 's');
+    el.classList.add('rv');
+    io.observe(el);
+  });
+})();
+</script>
+
+</body>
+</html>
